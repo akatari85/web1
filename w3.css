@@ -1,0 +1,41 @@
+/* Main */
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5; height: 100%; margin: 0px;}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.w3-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"돋움",Arial,sans-serif;font-weight:400;margin:10px 0}
+/* 속성 */
+.w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:black;background-color:#776699;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-badge{border-radius:50%}
+.w3-tooltip,.w3-display-container{position:relative}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block}
+.w3-dropdown-click,.w3-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.w3-dropdown-hover:hover .w3-dropdown-content{display:block}
+.w3-dropdown-hover:first-child,.w3-dropdown-click:hover{background-color:#ccc;color:#000}
+.w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{background-color:#ccc;color:#000}
+.w3-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
+.w3-col.s3{width:9.99999%;font-weight:bold}
+.w3-padding-small{padding:4px 8px!important}.w3-padding{padding:8px 8px 0px 16px!important}.w3-padding-large{padding:12px 24px!important}
+.w3-display-bottomleft{position:absolute;left:0;bottom:0}.w3-display-bottomright{position:absolute;right:0;bottom:0}
+.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-container{padding-top:15px;padding:0.01em 16px;margin-top: 20px; border: 5px}
+.w3-light{padding-left:50px;padding-right::100px;letter-spacing:4px; width: 300px;float:left;}
+.w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:15px;padding-right:15px;text-align:center }
+.w3-right{padding-left:10px; width:500px; display:inline-block;}
+.w3-leftbar{margin-left:10px;border-left:6px solid #443466!important}
+.w3-top{position:fixed;width:100%;z-index:1;top:0;}
+.bgimg {background-position: center; background-size: cover;background-image: url("main_visual_01.png");min-height: 75%;}
+.menu {display: none;}
+.w3-bar-item{padding:5px 0px;border:none;display:block;text-align:center;width:100%;}
+.w3-row:after{content:"";display:table;clear:both}
+.w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{width:100%}
+.w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{min-width:100%}
+.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+.w3-bar-block.w3-center .w3-block{display:block;width:100%}
+/* Colors */
+.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#443466!important}
+.w3-button:hover{color:#fff!important;background-color:#443466!important}
+.w3-text-black,.w3-hover-text-black:hover{color:#000!important}
+.w3-border-black,.w3-hover-border-black:hover{border-color:#000!important}
+.w3-text-white{color: #fff !important}
+.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}
